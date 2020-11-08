@@ -1,0 +1,44 @@
+# css rendering rules
+
+### rule 1
+!important
+
+### rule 2: css specificity
+inline-style
+id
+class
+element tag
+*
+
+### rule 3: who comes last###
+_________________________________________________________________________________
+# emmet rules
+
+### ! : start new html template
+### [element].[class name] : start element with class
+### .[class name] : div with class name
+### [element]#[id name] : element with id name
+### [element]+[element] : element next (sebling) to another element
+### [parent element] > [child element] : element inside another element
+### [element]*number : repeat the element with number
+### lorem[number]: generate number of words
+
+_________________________________________________________________________________
+# normalize css: unify the styling over different browsers and versions
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+_________________________________________________________________________________
+# display types
+
+### inline
+### block
+### inline-block
+### flex
+
+_________________________________________________________________________________
+# flex display
+
+### align-items ==>{center, flex-start, flex-end}

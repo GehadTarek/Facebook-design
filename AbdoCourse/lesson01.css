@@ -1,0 +1,38 @@
+body{
+    margin: 15px
+}
+
+*{
+    margin: 0;
+}
+
+.text-big{
+    font-size: 100px;
+}
+
+.text-2{
+   color: red;
+}
+/* div{
+    font-size: 10px !important;
+}
+#text-id{
+    font-size: 200px !important;
+} */
+
+
+
+/* 
+### rule 1
+!important
+
+### rule 2: css specificity
+inline-style
+id
+class
+element tag
+*
+
+### rule 3: who comes last
+
+ */
